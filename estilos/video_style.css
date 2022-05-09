@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+div#reproductor{
+    position: absolute;
+    bottom: -30%;
+    left: 45%;
+    right: 0%;
+    margin: auto;
+    width: 560px;
+    height:315px;
+    border: 8px solid #2c3e50 ;
+    background: #2c3e50 ;
+    border-radius: 10px;
+}
+
+div#biblioteca{
+    position: absolute;
+    bottom: -50%;
+    left: 0%;
+    right: 50%;
+    margin: auto;
+    width: 455px;
+    height:500px;
+    border: 8px solid #2c3e50 ;
+    background: #2c3e50 ;
+    border-radius: 10px;
+}
+
+h2#titulo{
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    left: 50%;
+    top: 8%;
+    transform: translateX(-50%) translateY(-50%);
+    color:floralwhite;
+}
+p#linea{
+    color: white;
+    text-decoration-color: white;
+    font-family: 'Roboto', sans-serif;;
+}
+

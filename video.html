@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="OVA SECURITY por la juan y para la juan" content="Objeto Virtual de aprendizaje">
+    <meta http-equiv="Content-Type" content="text/html" ; charset="iso-8859-1">
+    <link rel="stylesheet" type="text/css" href="estilos/menu_style.css" />
+    <link rel="stylesheet" type="text/css" href="estilos/video_style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <title>OVA SECURITY</title>
+</head>
+<body>
+    <div id="general">
+        <header>
+            <div id="encabezado">
+            <h1 id="titulo">OVA Security</h1>
+            <h2 id="subtitulo">Objeto virtual de aprendizaje</h2>
+            </div>
+            <div id="escudojdc">
+                <img src="Imagenes/escudojdc.png" alt="Escudo JDC" style="width: 170px; height: 150px;">
+            </div>
+            <div id="escudoOVA">
+                <img src="Imagenes/escudoOVA.png" alt="Escudo OVA" style="width: 150px; height: 180px;">
+            </div>
+        </header>
+        <ul>
+            <li>
+                <a href="Index.html">
+                    <div class="icono">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                    </div>
+                    <div class="name"><span data-text="Inicio">Inicio</span></div>
+                </a>
+            </li>
+            <li>
+                <a href="articulo.html">
+                    <div class="icono">
+                        <i class="fa fa-file-alt" aria-hidden="true"></i>
+                        <i class="fa fa-file-alt" aria-hidden="true"></i>
+                    </div>
+                    <div class="name"><span data-text="Articulos">Articulos</span></div>
+                </a>
+            </li>
+            <li>
+                <a href="marco.html">
+                    <div class="icono">
+                        <i class="fa fa-gavel" aria-hidden="true"></i>
+                        <i class="fa fa-gavel" aria-hidden="true"></i>
+                    </div>
+                    <div class="name"><span data-text="Marco legislativo">Marco legislativo</span></div>
+                </a>
+            </li>
+            <li>
+                <a href="libro.html">
+                    <div class="icono">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                    </div>
+                    <div class="name"><span data-text="Libros">Libros</span></div>
+                </a>
+            </li>
+            <li>
+                <a href="video.html">
+                    <div class="icono">
+                        <i class="fa fa-play-circle" aria-hidden="true"></i>
+                        <i class="fa fa-play-circle" aria-hidden="true"></i>
+                    </div>
+                    <div class="name"><span data-text="Videos">Videos</span></div>
+                </a>
+            </li>
+        </ul>
+        <div id="reproductor">
+            <iframe  allowfullscreen="" name="video" width="560" height="315" src="https://www.youtube.com/embed/KiuTyXehW-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+        </div>
+
+        <div id="biblioteca">
+            <h2 id="titulo">Biblioteca</h2>
+            <br>
+            <center>
+            <p id="linea">--------------------------------------------------------------</p>
+            <br>
+            <p id="linea">Introducción y cositas </p>
+            <br>
+            <select name="name" onchange="video.location.href=this.options[this.selectedIndex].value">
+            <option value="http://www.youtube.com/embed/KiuTyXehW-8?feature=player_detailpage&amp;autoplay=1">
+            Seguridad informatica - introducción
+            </option>
+            <option value="http://www.youtube.com/embed/eQS_m0jhHkc?feature=player_detailpage&amp;autoplay=1">
+            El verdadero trabajo de un hacker
+            </option>
+            <option value="http://www.youtube.com/embed/sLg2qDsqpAU?feature=player_detailpage&amp;autoplay=1">
+            Delitos de “hackers” que sí te llevan a la cárcel
+            </option>
+            <option value="https://www.youtube.com/embed/4gvHSnk6hiQ?feature=player_detailpage&amp;autoplay=1">
+            Por qué tu contraseña es fácil de hackear
+            </option>
+            </select>
+            <br>
+            <p id="linea">--------------------------------------------------------------</p>
+            <br>
+            <p id="linea">Entrevistas y Conferencias</p>
+            <br>
+            <select name="name" onchange="video.location.href=this.options[this.selectedIndex].value">
+            <option value="http://www.youtube.com/embed/Ce8Jcrb7yOo?feature=player_detailpage&amp;autoplay=1">
+            El hacker Chema Alonso piratea
+            </option>
+            <option value="http://www.youtube.com/embed/Fj9TwMTxGuc?feature=player_detailpage&amp;autoplay=1">
+            Seminario AITEX Ciberseguridad
+            </option>
+            <option value="http://www.youtube.com/embed/DbqkBAjId_U?feature=player_detailpage&amp;autoplay=1">
+            Tu iPhone es tan (in)seguro como tu Windows
+            </option>
+            <option value="https://www.youtube.com/embed/TW8DDFTmVoo?feature=player_detailpage&amp;autoplay=1">
+            10 libros para hackers
+            </option>
+            </select>
+            <br>
+            <p id="linea">--------------------------------------------------------------</p>
+            <br>
+            <p id="linea">Tutoriales</p>
+            <br>
+            <select name="name" onchange="video.location.href=this.options[this.selectedIndex].value">
+            <option value="http://www.youtube.com/embed/tEJsKW8AFxs?feature=player_detailpage&amp;autoplay=1">
+            El creador de Tor te explica
+            </option>
+            <option value="http://www.youtube.com/embed/gwEq0-ACUr8?feature=player_detailpage&amp;autoplay=1">
+            Técnicas de hackeo de las que serás víctima
+            </option>
+            <option value="http://www.youtube.com/embed/hpF7LhMXu5I?feature=player_detailpage&amp;autoplay=1">
+            Internet no se creó como una herramienta híper segura
+            </option>
+            <option value="https://www.youtube.com/embed/9gLh4rYYId8?feature=player_detailpage&amp;autoplay=1">
+            Las contraseñas no son nada seguras
+            </option>
+            </select>
+            <br>
+            <p id="linea">--------------------------------------------------------------</p>
+            <br>
+            <p id="linea">Documentales</p>
+            <br>
+            <select name="name" onchange="video.location.href=this.options[this.selectedIndex].value">
+            <option value="http://www.youtube.com/embed/Dp_iBcfFftM?feature=player_detailpage&amp;autoplay=1">
+            Hackéame si puedes Documental Español HD
+            </option>
+            <option value="http://www.youtube.com/embed/F8N-sSvyVdA?feature=player_detailpage&amp;autoplay=1">
+            La Deep Web. Viaje al Sub Mundo Digital
+            </option>
+            <option value="http://www.youtube.com/embed/AZCwMVgYGMI?feature=player_detailpage&amp;autoplay=1">
+            Historia de los Hackers Informáticos
+            </option>
+            <option value="https://www.youtube.com/embed/YGwQtJsquJc?feature=player_detailpage&amp;autoplay=1">
+            Hackers, Crackers y Piratas Informaticos
+            </option>
+            </select>
+            <br>
+            <p id="linea">--------------------------------------------------------------</p>
+            <br>
+            </center>
+        </div>
+        <div id="piePagina">
+        <footer>
+            Derechos Reservados semillero InCIC &copy; 2021<br>
+            Design by: Hernan David Cortes Sierra<br>
+            Email: hdcortes@jdc.edu.co<br>
+            www.jdc.edu.co
+        </footer>
+        </div>
+    </div>
+</body>
+</html>
